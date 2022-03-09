@@ -1,0 +1,47 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background-image: url("https://images.unsplash.com/photo-1622069873046-39550b57c903?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  background-size: cover;
+}
+
+.campo-calcular {
+  width: 450px;
+  background-color: white;
+  padding: 70px 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 57%;
+  top: 50%;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 45%;
+}
+
+.input {
+  width: 100%;
+  heigth: 50px;
+  border-radius: 5px;
+  border: 2px solid #d2d2d2;
+  outline: none;
+  margin-top: 8px;
+  padding: 0 10px;
+}
+
+input:focus {
+  border-color: blue;
+}
+
+.page-title {
+  color: white;
+  text-align: center;
+  margin: 0 0 5px;
+}
